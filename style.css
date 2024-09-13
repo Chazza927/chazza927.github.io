@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 8px;
+}
+#logo {
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    font-family: "fredoka one", sans-serif;
+    width: 16%;
+    text-shadow: 
+    1px 1px 0px black,   /* Bottom-right shadow */
+    -1px 1px 0px black,  /* Bottom-left shadpw */
+    1px -1px 0px black,  /* Top-right shadow */
+    -1px -1px 0px black; /* Top-left shadow */
+}
+ul {
+    margin: 0px;
+}
+body > header {
+    background-color: turquoise;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content:  space-around;
+}
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li{
+    padding: 8px;
+    margin: 16px;
+}
+body > header > nav > ul {
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main  article{
+    width: 80%;
+    margin: 5%;
+    margin-bottom: 10%;
+    line-height: 2; /*double the space betwwn lines*/
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body > footer {
+    background-color: turquoise;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+    color: white;
+}
+#Fogo {
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    font-family: "fredoka one", sans-serif;
+    width: 30%;
+    text-shadow: 
+    1px 1px 0px black,   /* Bottom-right shadow */
+    -1px 1px 0px black,  /* Bottom-left shadpw */
+    1px -1px 0px black,  /* Top-right shadow */
+    -1px -1px 0px black; /* Top-left shadow */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .grid-item {
+    text-align: center; /* Center-aligns text and images */
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-bottom: 10px; /* Adds space between image and text */
+  }
+  
+  .grid-item p {
+    font-size: 16px;
+    color: #333;
+  }
+
+#content-logo {
+    color: black;
+    margin: 0px;
+    padding: 8px;
+    font-family: "fredoka one", sans-serif;
+    width: 40%;
+    text-shadow: 
+    1px 1px 0px white,   /* Bottom-right shadow */
+    -1px 1px 0px white,  /* Bottom-left shadpw */
+    1px -1px 0px white,  /* Top-right shadow */
+    -1px -1px 0px white; /* Top-left shadow */
+}
+body > header > .content-logo {
+    background-color: turquoise;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content:  space-around;
+
+}
